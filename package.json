@@ -1,0 +1,30 @@
+{
+  "name": "vuejs-challenge",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "buildssr": "vite-ssg build",
+    "preview": "vite preview",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "@vueuse/head": "^0.9.8",
+    "axios": "^1.6.2",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vue/test-utils": "^2.4.3",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "vite": "^4.5.0",
+    "vite-ssg": "^0.23.5",
+    "vitest": "^1.0.4"
+  }
+}
